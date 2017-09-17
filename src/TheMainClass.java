@@ -9,17 +9,29 @@ public class TheMainClass {
 
     public static void main(String[] args){
 
+        /*--------------------------------
+        -
+        -   Фибоначчи
+        -
+         ---------------------------------*/
         TheFibonachy theFibonachy = new TheFibonachy();
-        //print(theFibonachy.getResult(N));
+        print(theFibonachy.getResult(N));
 
 
+
+
+        /*-------------------------------
+        -
+        -   Быстрая сортировка
+        -
+         -------------------------------*/
         Integer[] forQS = new Integer[]{4,2,8,1,3,7,6,5};
 
-        print("\n"+Arrays.toString(forQS)+"\n");
+        print("\n"+Arrays.toString(forQS)+"\n");// Вывод массива до сортировки
         TheQuckSort theQuckSort = new TheQuckSort();
         theQuckSort.quickSor(forQS);
 
-        print("\n"+Arrays.toString(forQS));
+        print("\n"+Arrays.toString(forQS));// Вывод после сортировки
     }
 
     public static void print(Object o){
