@@ -28,6 +28,7 @@ public class TheMainClass {
         Integer[] forQS = new Integer[]{4,2,8,1,3,7,6,5};
 
         print("\n"+Arrays.toString(forQS)+"\n");// Вывод массива до сортировки
+
         TheQuckSort theQuckSort = new TheQuckSort();
         theQuckSort.quickSor(forQS);
 
