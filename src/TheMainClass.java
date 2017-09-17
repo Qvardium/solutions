@@ -15,7 +15,7 @@ public class TheMainClass {
         -
          ---------------------------------*/
         TheFibonachy theFibonachy = new TheFibonachy();
-        print(theFibonachy.getResult(N));
+        print(theFibonachy.getResult(N)+"\n\n");
 
 
 
@@ -26,12 +26,12 @@ public class TheMainClass {
          -------------------------------*/
         Integer[] forQS = new Integer[]{4,2,8,1,3,7,6,5};
 
-        print("\n"+Arrays.toString(forQS)+"\n");// Вывод массива до сортировки
+        print("\n"+Arrays.toString(forQS)+"\n\n");// Вывод массива до сортировки
 
         TheQuckSort theQuckSort = new TheQuckSort();
         theQuckSort.quickSor(forQS);
 
-        print("\n"+Arrays.toString(forQS));// Вывод после сортировки
+        print(Arrays.toString(forQS)+"\n\n");// Вывод после сортировки
     }
 
     public static void print(Object o){
